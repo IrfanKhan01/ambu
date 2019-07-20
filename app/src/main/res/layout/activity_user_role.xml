@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    tools:context=".UserRoleActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Ambu"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"/>
+
+
+    <TextView
+        android:id="@+id/tv_are_you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Are you?"
+        android:textAllCaps="true"
+        android:textColor="@color/red"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="150dp"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        >
+
+        <Button
+            android:id="@+id/btn_client"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:text="Client"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/red"/>
+
+        <Button
+            android:id="@+id/btn_driver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:layout_alignParentEnd="true"
+            android:text="Driver"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ambu Service</string>
+
+    <string name="google_map_api_key">AIzaSyCPhWX1bh-D_81D_1iRMcINDcPszAmhJD8</string>
+    <string name="new_acc"><u>Create a new account here!</u></string>
+
+    <string name="about">In the public health service, the National Ambulance Service provides ambulance services for transporting seriously ill people to hospitals or between hospitals.</string>
+</resources>
